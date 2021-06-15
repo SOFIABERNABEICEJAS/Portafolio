@@ -1,12 +1,10 @@
 html{
-    height: 100%;
-    margin: 0%;
-    padding: 0%;  
-       
+    width: 100%;
+    font-family: 'Roboto', sans-serif;      
 }
 
 header{
-   
+
     height: 80px;
     width: 100%;
     background-color:darkgrey;
@@ -70,7 +68,7 @@ header{
 }
 
 .contenedorHeader li a:hover{
-    color:rgb(134, 129, 129);
+    color:darkslateblue;
 
 }
 
@@ -89,39 +87,82 @@ main{
     width: 100%;
     padding: 0%;
     margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-.contenedorMain{
+
+
+
+.presentacion{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    
+      
+}
+
+.contenedorPresentacion{ 
     display: flex;
     flex-direction: column;
     justify-content:center;
-    align-items:flex-start;
-    height: 500px;
-    width: 45%;
-    margin: 20px 40px;
-    border-radius: 40px;
+    padding-left: 40px;
+    height: 600px;
+    width: 50%;
     background-color:rgb(252, 245, 236);
+     
+}
+.contenedorPresentacion p{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+
+}
+h1{
+   margin-top: 6px;
+   margin-bottom: 6px;
+    font-size: 70px;
     
-   
+    font-family: 'Satisfy', cursive;
+    color:darkslateblue;
 }
 
 
-.botonMain{
+
+.botonPresentacion{
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration:none;
     height: 40px;
     width: 140px;
-    border: opx,60px;
     border-radius:30px;
     background-color:darkgrey;
-    color:black
-    
- 
-    
+    color:black; 
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; 
 
 }
-  
+.botonPresentacion:hover{
+    color:darkslateblue;
+
+}
+
+.ContenedorImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornsilk;
+    width: 50%;
+    height: 600px;
+}
+
+.PresentacionImagen{
+    width:100%;
+    height: 500px;
+    
+}  
 
   
 
