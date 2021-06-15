@@ -1,0 +1,137 @@
+html{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;  
+       
+}
+
+header{
+   
+    height: 80px;
+    width: 100%;
+    background-color:darkgrey;
+    position:fixed;
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+   
+}
+
+.contenedorHeader{
+    width: 600px;
+    height: 70px;
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+} 
+.contenedorHeader li{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+      
+}
+
+.contenedorHeader li a{ 
+    display: flex;  
+    align-items: center;
+    text-decoration: none;  
+    color:black;
+    border-radius:30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.liHeader1{
+    height: 40px;
+    width: 80px;
+    border-radius:30px;
+
+}
+.liHeader2{
+    height: 40px;
+    width: 165px;
+    border-radius:30px;
+ }
+
+.liHeader3{
+    height: 40px;
+    width: 130px;
+    border-radius:30px;
+
+ }
+ .liHeader4{
+    height: 40px;
+    width: 140px;
+    border-radius:30px; 
+    background-color: blanchedalmond;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;  
+
+}
+
+.contenedorHeader li a:hover{
+    color:rgb(134, 129, 129);
+
+}
+
+.contenedorHeader >li:active{
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+
+
+
+
+
+main{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+.contenedorMain{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    height: 500px;
+    width: 45%;
+    margin: 20px 40px;
+    border-radius: 40px;
+    background-color:rgb(252, 245, 236);
+    
+   
+}
+
+
+.botonMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+    height: 40px;
+    width: 140px;
+    border: opx,60px;
+    border-radius:30px;
+    background-color:darkgrey;
+    color:black
+    
+ 
+    
+
+}
+  
+
+  
+
+
+
+
+
+ 
+
+
+   
+
+    
