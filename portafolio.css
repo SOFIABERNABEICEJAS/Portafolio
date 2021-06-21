@@ -1,22 +1,33 @@
 html{
     width: 100%;
-    font-family: 'Roboto', sans-serif;      
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(252, 245, 236);      
 }
-
-nav{
-
+.barra-de-navegacion{
     height: 80px;
     width: 100%;
     background-color:darkgrey;
     position:fixed;
     display: flex;
-    justify-content:flex-end ;
+    justify-content:center;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    
 }
 
-.contenedorNav{
+.contenedor-navegacion{
+
+    height: 80px;
+    width: 85%;
+    background-color:darkgrey;
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+      
+}
+
+.navegacion{
+    
     width: 600px;
     height: 70px;
     list-style:none;
@@ -24,14 +35,14 @@ nav{
     align-items: center;
     justify-content: space-around
 } 
-.contenedorNav li{
+.navegacion li{
     display: flex;
     justify-content:center;
     align-items: center;
       
 }
 
-.contenedorNav li a{ 
+.navegacion li a{ 
     display: flex;  
     align-items: center;
     text-decoration: none;  
@@ -40,25 +51,25 @@ nav{
     font-family: 'Roboto', sans-serif;
     
 }
-.liNav1{
+.link-navegacion{
     height: 40px;
-    width: 80px;
     border-radius:30px;
-
 }
-.liNav2{
-    height: 40px;
-    width: 165px;
-    border-radius:30px;
+.hola{
+    
+    width: 80px;
+}
+.conocimiento{
+  
+    width: 170px;
  }
 
-.liNav3{
-    height: 40px;
-    width: 130px;
-    border-radius:30px;
+.proyecto{
+
+    width: 140px;
 
  }
- .liNav4{
+ .contacto{
     height: 40px;
     width: 140px;
     border-radius:30px; 
@@ -67,12 +78,12 @@ nav{
 
 }
 
-.contenedorNav li a:hover{
+.navegacion li a:hover{
     color:darkslateblue;
 
 }
 
-.contenedorNav >li:active{
+.navegacion >li:active{
 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 
@@ -81,62 +92,60 @@ nav{
 
 
 
-
-
-
-
-
-
+/* fin barra de navegacion, comienzo de seccion presentacion */
 
 
 Header{
     width: 100%;
-    padding: 0%;
-    margin: 0%;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color:rgb(252, 245, 236);
     
 }
+.seccion-presentacion{
+    height: 600px;
+    width: 85%;
+    background-color:rgb(252, 245, 236);
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
-
-
-.contenedorPresentacion{ 
+.contenedor-presentacion{ 
     display: flex;
     flex-direction: column;
     justify-content:center; 
     height: 600px;
-    width: 40%;
-    background-color:rgb(252, 245, 236);
-    
+    width: 50%;
+    background-color:rgb(252, 245, 236);   
      
 }
-.contenedorPresentacion p{
+.contenedor-presentacion p{
     margin: 0%;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
 
 }
-.contenedorPresentacion h1{
+.contenedor-presentacion h1{
    margin-top: 6px;
    margin-bottom: 6px;
-    font-size: 70px;
+    font-size:70px;
     font-family: 'Satisfy', cursive;
     color:darkslateblue;
 }
-.contenedorPresentacion h5{
+.contenedor-presentacion h5{
     
     font-size: 15px;
     color:rgb(134, 111, 81);
-    font-family: 'Roboto', sans-serif; 
-    
+    font-family: 'Roboto', sans-serif;    
 }
 
 
-
-.botonPresentacion{
+.boton-presentacion{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,47 +159,110 @@ Header{
     color:rgb(52, 45, 97);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.botonPresentacion:hover{
+.boton-presentacion:hover{
     color:darkslateblue;
-
 }
 
-.ContenedorImagen{
+.contenedor-imagen-header{
     display: flex;
     justify-content: center;
     align-items: center;
     background: cornsilk;
-    width: 45%;
+    width: 50%;
     height: 600px;
 }
-
-.PresentacionImagen{
+.presentacion-imagen-header{
     width:100%;
     height: 500px;
     
-}  
+} 
 
-  
-
-
-.conocimientos{
-    background-color: cadetblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.conocimientos h2 {
-    font-size: 20px;
-    
-}
-
-
-
+/* <-- fin seccion presentacion, comienzo de seccion conocimiento-- */
 
  
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 
+    }
 
+.conocimientos{
+    width: 85%;
+    height: 900px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    
+}
+.conocimiento-desarrollo{
+    width: 70%;
+    height: 200px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.conocimiento-desarrollo h2 {
+
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.desarrollo{
+    
+    width: 350px;
+    height: 90px;
+    margin: 0%;
+}
+.conocimiento-ilustracion{
+    width: 100%;
+    height: 70%;
+    margin:25px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.ilustracion{
+    width: 250px;
+    height: 600px; 
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+  
+
+}
+.ilustracion-cajas{
+    width: 250px;
+    height: 230px;
+    margin: 10px;
+    border-radius: 8px;
+    border:1px solid darkgrey;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    
+
+
+}
+
+.imagenes-ilustracion{
+    width: 80px;
+    height: 80px;
+   
+
+}
+
 
     
