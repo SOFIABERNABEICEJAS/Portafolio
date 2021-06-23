@@ -345,7 +345,7 @@ main{
 
 .formulario{
      width: 85%;
-     height: 1500px;
+     height: 1000px;
      border-radius: 20px;
      border:1px solid darkgrey;
      background-color:white;
@@ -356,11 +356,12 @@ main{
 .contenedor-formulario{
      width: 600px;
      height: 700px;
-     margin: 20px;
+     margin: 10px;
      padding: 20px;
      background-color: white;
      display: flex;
      flex-direction: column;
+     background-color: aquamarine;
      
      
 
@@ -372,8 +373,14 @@ main{
   }
 
 
+  .datos-personales-formulario{
+       display: flex;
+  }
+ 
   
-
+label{
+     display: block;
+}
 
 
 
