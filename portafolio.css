@@ -7,35 +7,38 @@ h2{
 
      }   
 .contenedor-navegacion{
+     display: flex;
+     justify-content:center;
+     align-items: center;
      position:fixed;
      height: 80px;
      width: 100%;
      background-color:rgb(173, 173, 173);
      box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-     display: flex;
-     justify-content:center;
-     align-items: center;
+     
        
 }
 
 .barra-de-navegacion{
-     height: 80px;
-     width: 85%;
-     background-color:rgb(173, 173, 173);
      display: flex;
      justify-content:flex-end ;
      align-items: center;  
+     height: 80px;
+     width: 85%;
+     background-color:rgb(173, 173, 173);
+     
 }
 
 .navegacion{ 
-     list-style:none;
      display: flex;
-     justify-content: space-around
+     justify-content: space-around;
+     list-style:none;
 } 
 .navegacion li{
      display: flex;
      justify-content:center;
      align-items: center;
+     margin:8px;
       
 }
 
@@ -150,9 +153,12 @@ Header{
 
 .boton-presentacion:hover{
      color:darkslateblue;
+     background-color:rgb(192, 190, 190);
 }
 .boton-presentacion:active{
      background-color:rgb(192, 190, 190);
+     box-shadow:none;
+   
 }
 
 .contenedor-presentacion-imagen{
@@ -225,6 +231,15 @@ main{
      flex-direction: column;
      align-items: center;
      justify-content: center;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     box-sizing: border-box;
+     transition: 0.10s;
+}
+.ilustracion-mis-conocimientos-cajas:hover{
+     border:1.5px solid  darkslateblue;
+     color:darkslateblue;
+     
+
 }
 
 .imagenes-ilustracion-mis-conocimientos{
@@ -314,7 +329,10 @@ main{
      margin: 8px;
      border-radius: 8px;
      border:1px solid darkgrey;
-     background-color:rgb(252, 245, 236); 
+     box-sizing: border-box;
+     background-color:rgb(252, 245, 236);
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     
   }
 
 
@@ -334,46 +352,42 @@ main{
     font-size: 16px;
     color:black ;
     
-  
+}
+.ilustracion-cajas:hover{
+     border:0.5px solid  darkslateblue;
+     box-shadow: rgb(175, 169, 211) 0px 7px 29px 0px;
 
 }
+.ilustracion-cajas:active{
+     border:2px solid  darkslateblue;
+     background-color:white;
+       
+}
+
 
 .contenedor-imagen img{
     width: 220px;
     height: 200px;
     
- 
 }
 .imagen-proyectos{
      display: flex;
- 
-    
-    
-   
-
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   /* fin demis proyectos, comienzo de formulario */
 
+  .seccion-formulario{
+       width: 100%;
+       height: 900px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+  }
 
 .formulario{
      width: 85%;
-     height: 1000px;
      border-radius: 20px;
      border:1px solid darkgrey;
      background-color:white;
@@ -382,34 +396,65 @@ main{
 
 }
 .contenedor-formulario{
-     width: 600px;
-     height: 700px;
+     width: 50%; 
+     height: 600px;
      margin: 10px;
      padding: 20px;
      background-color: white;
      display: flex;
      flex-direction: column;
-     background-color: aquamarine;
      
      
-
 }
 
-  .contenedor-formulario h2{
-     font-size: 45px;
-     font-family: 'Roboto', sans-serif;
-  }
-
-
-  .datos-personales-formulario{
+  .datos-personales-formulario{   
        display: flex;
   }
  
-  
-label{
-     display: block;
-}
 
+.email-mensaje-formulario{
+     
+     display: flex;
+     flex-direction: column;
+     
+
+}
+label{display: flex;
+     flex-direction: column;
+     margin: 8px;
+     font-size: 18px;
+}
+input, textarea{
+     margin: 8px;
+     padding: 10px;
+     font-size: 16px;
+     border-radius: 20px;
+     background-color: #f6f7fb;
+     border: 1px solid #f6f7fb;
+     
+}
+.email-mensaje{
+     display: flex;
+     flex-direction: column;
+}
+.formulario-boton{
+     display: flex;
+
+}
+.boton-enviar{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 40px;
+     width: 140px;
+     border-radius: 30px;
+     border: 1px solid rgb(134, 111, 81);
+     margin-top: 20px;
+     background-color:darkgrey;
+     color: black;
+     font-size: 18px;
+     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
 
 
   
