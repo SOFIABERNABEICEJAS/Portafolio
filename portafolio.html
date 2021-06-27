@@ -9,7 +9,7 @@
     <link href="portafolio.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2? family = Roboto & display = swap" rel="hoja de estilo ">
-    <link rel="shortcut icon" type="imagen/x-icon" href="favico.ico.svg">
+    <link rel="shortcut icon" type="imagen/x-icon" href="img/favico.ico.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,42 +20,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="barra-de-navegacion">
-        <nav class="contenedor-navegacion">
 
+<body>
+    <div class="contenedor-navegacion">
+        <nav class="barra-de-navegacion">
+    
             <ul class="navegacion">
                 <li class="link-navegacion hola"><a href="#HOLA">HOLA</a></li>
                 <li class="link-navegacion conocimiento"><a href="#CONOCIMIENTOS">CONOCIMIENTOS</a></li>
                 <li class="link-navegacion proyecto"><a href="#PROYECTOS"> PROYECTOS </a></li>
                 <li class="link-navegacion contacto"><a href="#CONTACTO"> CONTACTO</a></li>
             </ul>
-
+    
         </nav>
-
-    </nav>
+    
+    </div>
+    
     <!-- Fin barra de navegacion, comienzo de seccionpresentacion-->
 
-
-
-
-    <br />
-    <br />
     <br />
 
     <header id="HOLA">
         <div class="seccion-presentacion">
-            <div class="contenedor-presentacion">
+            <div class="contenedor-presentacion-desarrollo">
 
                 <p>¡Hola! soy </p>
                 <h1>Sofia Bernabei </h1>
-                <h5>Desarrolladora Frontend, amante de la música y la naturaleza.</h5>
+                <h5>Próxima desarrolladora, amante de la música y la naturaleza.</h5>
 
                 <a href="#PROYECTOS" class="boton-presentacion"><strong> LO QUE HAGO</strong></a>
             </div>
 
-            <div class="contenedor-imagen-header">
-                <img class="presentacion-imagen-header" src="My universo.svg" alt="foto principal">
+            <div class="contenedor-presentacion-imagen">
+                <img class="imagen-presentacion" src="img/My universo.svg" alt="persona sosteniendo un mundo">
 
             </div>
 
@@ -90,12 +87,12 @@
                 <div class="ilustracion-mis-conocimientos">
 
                     <div class="ilustracion-mis-conocimientos-cajas">
-                        <img class="imagenes-ilustracion-mis-conocimientos" src="html-5.svg" alt="">
+                        <img class="imagenes-ilustracion-mis-conocimientos" src="img/html-5.svg" alt="">
                         <p><strong>HTML-5</strong></p>
 
                     </div>
                     <div class="ilustracion-mis-conocimientos-cajas">
-                        <img class="imagenes-ilustracion-mis-conocimientos" src="java-script.svg" alt="">
+                        <img class="imagenes-ilustracion-mis-conocimientos" src="img/java-script.svg" alt="">
                         <p><strong>JAVA-SCRIPT</strong></p>
 
                     </div>
@@ -104,12 +101,12 @@
                 </div>
                 <div class="ilustracion-mis-conocimientos">
                     <div class="ilustracion-mis-conocimientos-cajas">
-                        <img class="imagenes-ilustracion-mis-conocimientos" src="css-3.svg" alt="">
+                        <img class="imagenes-ilustracion-mis-conocimientos" src="img/css-3.svg" alt="">
                         <p><strong>CSS-3</strong></p>
 
                     </div>
                     <div class="ilustracion-mis-conocimientos-cajas">
-                        <img class="imagenes-ilustracion-mis-conocimientos" src="physics.png" alt="">
+                        <img class="imagenes-ilustracion-mis-conocimientos" src="img/physics.png" alt="">
                         <p><strong>REACT</strong></p>
 
                     </div>
@@ -117,12 +114,12 @@
                 </div>
                 <div class="ilustracion-mis-conocimientos">
                     <div class="ilustracion-mis-conocimientos-cajas">
-                        <img class="imagenes-ilustracion-mis-conocimientos" src="sass.png" alt="">
+                        <img class="imagenes-ilustracion-mis-conocimientos" src="img/sass.png" alt="">
                         <p><strong>SASS</strong></p>
 
                     </div>
                     <div class="ilustracion-mis-conocimientos-cajas">
-                        <img class="imagenes-ilustracion-mis-conocimientos" src="git.png" alt="">
+                        <img class="imagenes-ilustracion-mis-conocimientos" src="img/git.png" alt="">
                         <p><strong>GIT</strong></p>
 
                     </div>
@@ -142,7 +139,7 @@
 
         <article class="article-comentario">
             <div class="comentario">
-                <img class="comentario-imagen-comilla" src="comilla.png" alt="comilla simple que cierra">
+                <img class="comentario-imagen-comilla" src="img/comilla.png" alt="comilla simple que cierra">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quaerat aspernatur laboriosam
                     doloremque iste perspiciatis veniam culpa beatae magni quo natus nostrum, laudantium exercitationem
                     sit minima aut totam praesentium aliquam.</p>
@@ -170,39 +167,71 @@
                 </div>
 
                 <div class="proyectos-ilustracion">
-                    <div class="ilustracion-mis-proyectos-cajas"></div>
-                    <div class="ilustracion-mis-proyectos-cajas"></div>
-                    <div class="ilustracion-mis-proyectos-cajas"></div>
-                    <div class="ilustracion-mis-proyectos-cajas"></div>
-                    <div class="ilustracion-mis-proyectos-cajas"></div>
-                    <div class="ilustracion-mis-proyectos-cajas"></div>
-                    <div class="ilustracion-mis-proyectos-cajas"></div>
+
+                    <div class="ilustracion-cajas">
+                        <a href="#" target="_blank">
+                            <div class="contenedor-imagen">
+                                <img class="imagen-proyectos"src="img/porfoli-img.png" alt="ilustracion de mi portafolio">
+                            </div>
+                            <p><strong>PORTAFOLIO</strong></p>
+                        </a>
+                                          
+                    </div>
+                    <div class="ilustracion-cajas">
+                        <a href="#" target="_blank">
+                            <div class="contenedor-imagen">
+                                <img class="imagen-proyectos"src="img/administrador-de-tareas.svg" alt="persona creando contenido">
+                            </div>
+                            <p><strong>ADMINISTRADORA DE TAREAS</strong></p>
+                        </a> 
+                        
+                    </div>
+                    <div class="ilustracion-cajas">
+                        <a href="#" target="_blank">
+                            <div class="contenedor-imagen">
+                                <img class="imagen-proyectos"src="img/generador-de-memes.svg" alt="persona creando contenido">
+                            </div>
+                            <p><strong>GENERADORA DE MEMES</strong></p>
+                        </a>
+                    </div>
+                    <div class="ilustracion-cajas">
+                        <a href="#" target="_blank">
+                            <div class="contenedor-imagen">
+                                <img class="imagen-proyectos"src="img/controlador-de-gastos.svg" alt="persona controlando gastos">
+                            </div>
+                            <p><strong>CONTROLADORA DE GASTOS</strong></p>
+                        </a>
+                    </div>
+                    <div class="ilustracion-cajas">
+                        <a href="#" target="_blank">
+                            <div class="contenedor-imagen">
+                                <img class="imagen-proyectos"src="img/todo-app.svg" alt="persona controlando gastos">
+                            </div>
+                            <p><strong>TODO APP</strong></p>
+                        </a>
+                    </div>
+                    <div class="ilustracion-cajas">
+                        <a href="#" target="_blank">
+                            <div class="contenedor-imagen">
+                                <img class="imagen-proyectos"src="img/salir-con-amigos.svg" alt="">
+                            </div>
+                            <p><strong>SALIR CON AMIGOS</strong></p>
+                        </a>
+                    </div>
+                    <div class="ilustracion-cajas">
+                        <a href="#" target="_blank">
+                            <div class="contenedor-imagen">
+                                <img class="imagen-proyectos"src="img/buscador-de-peliculas.svg" alt="persona creando contenido">
+                            </div>
+                            <p><strong>BUSCADORA DE PELICULAS</strong></p>
+                        </a> 
+                    </div>
 
 
                 </div>
-<!-- 
-                    <div class="ilustracion-mis-proyectos">
-                        <div  class="ilustracion-mis-proyectos-cajas">
-                            
-
-                        </div>
-                        <div class="ilustracion-mis-proyectos-cajas"></div>
-                        <div class="ilustracion-mis-proyectos-cajas"></div>
-
-                    </div>
-                    <div class="ilustracion-mis-proyectos">
-                        <div class="ilustracion-mis-proyectos-cajas"></div>
-                        <div class="ilustracion-mis-proyectos-cajas"></div>
-                        
-                    </div>
-                    <div class="ilustracion-mis-proyectos">
-                        <div class="ilustracion-mis-proyectos-cajas"></div>
-                        <div class="ilustracion-mis-proyectos-cajas"></div>
-                        
-                    </div> -->
 
 
-                </div>
+
 
 
         </seccion>
