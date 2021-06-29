@@ -208,20 +208,22 @@ main{
 .conocimientos-ilustracion{
      display: flex;
      justify-content: center;
+     
+    
 }
 .ilustracion-mis-conocimientos{
      width: 250px;
-     height: 600px; 
-     margin: 8px;
+     height: 550px; 
+     margin: 12px;
      display: flex;
      flex-direction: column;
-     align-items: center;   
+     justify-content: space-around; 
+     
 }
 
 .ilustracion-mis-conocimientos-cajas{
      width: 250px;
      height: 230px;
-     margin: 10px;
      border-radius: 8px;
      border:1px solid darkgrey;
      background-color:white;
@@ -469,7 +471,7 @@ main{
 
      }
 
-.fa.fa-twitter{
+.fa.fa-twitter, .fa.fa-github, .fa.fa-linkedin-square{
      display: flex;
      align-items: center;
      justify-content: center;
@@ -477,51 +479,13 @@ main{
      height: 40px;
      border-radius:50px;
      margin: 10px;
-     
-     color:black;
      font-size: 20px;
      background-color:darkgrey;
      
    }
 
 
-.fa.fa-github{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 40px;
-     height: 40px;
-     border-radius:50px ;
-     background-color:darkgrey; 
-     font-size: 20px;
-     margin: 10px;
-}
 
-.fa.fa-linkedin-square{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 40px;
-     height: 40px;
-     border-radius:50px ;
-     font-size: 20px;
-     background-color:darkgrey;
-     margin: 10px;
-
-}
-
-.fas.fa-envelope-open{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 40px;
-     height: 40px;
-     border-radius:50px ;
-     font-size: 45px;
-     background-color:darkgrey;
-     margin: 10px;
-
-}
 
   .datos-personales-formulario{   
        display: flex;
@@ -605,7 +569,6 @@ footer{
 }
 .navegacion-footer{
      width: 600px;
-     height: 50px;
      display: flex;
      justify-content: space-around;
      list-style:none;
@@ -643,39 +606,71 @@ footer{
 
   }
   .navegacion-footer a:hover{
-       color:darkslateblue;
+       color:darkslateblue; }
 
-       }
+
+.redes-sociales{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+              
+}
+
+.contenedor-redes-sociales{
+     width: 350px;
+     display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.contenedor-redes-sociales li{
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+.contenedor-redes-sociales li a{
+     text-decoration: none;
+     display: flex;
+    
+    
+}
+.contenedor-redes-sociales .fa{
+     color:rgb(233, 215, 193);
+     font-size: 30px;
+     background-color: black;
+}
+.contenedor-redes-sociales .fa:hover{
+     background-color:darkslateblue;
+}
+
+
+
+
+
+
+
 
  /* proyecto resposive */
 
  @media (max-width:1100px){
           .contenedor-navegacion{
-               display: none;
-          }
+               display: none;}
+          
+
+      }
      
 
  @media (max-width:1100px){
           
-          .seccion-presentacion {
-               flex-direction: column;
- }
-@media (max-width:1100px){
-          
-          .conocimientos-ilustracion {
-               flex-direction: column;
-          }
+          .seccion-presentacion, .conocimientos-ilustracion, .formulario-fondo, .conocimientos-ilustracion, .proyectos-ilustracion, .navegacion-footer {
+               flex-direction: column;}
+
 
 }
 
-@media (max-width:1100px){
-     .formulario-fondo{
-          flex-direction: column;
-          
 
-      }  
-
-}
 @media (max-width:110px){
      .contenedor-formulario{
           width: 100%;
@@ -687,26 +682,14 @@ footer{
           font-size: 35px;
      }
      
-@media (max-width:1100px){
-     .proyectos-ilustracion{
-          justify-content: center;
 
-     }
 }
 @media (max-width:1100px){
-     .contenedor-formulario{
-          width: 100%;
-
+     .conocimientos-ilustracion, .navegacion-footer {
+         align-items: center;
      }
 }
 
-@media (max-width:1100px){
-     .navegacion-footer{
-          justify-content: center;
 
-     }
-     
-
-     }
      /* fin de proyecto responsive */
 
