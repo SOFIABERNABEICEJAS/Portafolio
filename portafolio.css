@@ -1,7 +1,8 @@
+
 body{ 
      margin: 0%;
      font-family: 'Roboto', sans-serif;
-     background-color:rgb(252, 245, 236);      
+     background-color:white;      
 }
 h2{
  font-size: 45px;
@@ -27,6 +28,7 @@ h2{
      height: 80px;
      width: 85%;
      background-color:rgb(173, 173, 173);
+    
      
 }
 
@@ -86,17 +88,8 @@ h2{
      
 }
 
-@media (max-width:1100px){
-     .contenedor-navegacion{
-          display: none;
-     }
-
-}
-
 /* fin barra de navegacion */
 /* comienzo seccion presentacion */
-
-
 
 
 Header{
@@ -105,7 +98,7 @@ Header{
      display: flex;
      align-items: center;
      justify-content: center;
-     background-color: white;
+     
     
 }
 .seccion-presentacion{
@@ -183,35 +176,21 @@ Header{
      justify-content: center;
      width:100%;
      
-  
 } 
-@media (max-width:1100px){
-     .seccion-presentacion{
-          flex-direction: column;
-     }
-}
 
 
- /* <-- fin seccion presentacion, */
- /* comienzo de seccion conocimiento-- */ 
+ /* fin de presentacion   */ 
+ /* comienzo de seccion conocimiento  */
 
- 
-main{
+main{ 
      display: flex;
      flex-direction: column;
      align-items: center;
-     justify-content: center;
-    
+     background-color:rgb(252, 245, 236);
     }
+    
 
-.seccion-conocimientos{
-     width: 85%;
-     height: 1000px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;   
-   
-}
+
 .conocimientos-desarrollo{
      display: flex;
      flex-direction: column;
@@ -252,7 +231,7 @@ main{
      justify-content: center;
      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
      box-sizing: border-box;
-     transition: 0.10s;
+     
 }
 .ilustracion-mis-conocimientos-cajas:hover{
      border:1.5px solid  darkslateblue;
@@ -272,24 +251,18 @@ main{
 }
 
 
-@media (max-width:1100px){
-     .conocimientos-ilustracion{
-          flex-direction: column;
-     }
-}
+
+ /* fin seccion conocimiento
+  comienzo seccion-comentario */
 
 
-
-
- /* fin seccion conocimiento, article- comentario */
-
-
- .article-comentario{
+ .seccion-comentario{
      width: 100%;
      height: 400px;
      background-color:rgb(173, 173, 173);
      display: flex;
      justify-content: center; 
+     align-items: center;
  }
 
  .comentario{
@@ -304,11 +277,11 @@ main{
      text-align: center;
      
  }
- .comentario-imagen-comilla{
+ .imagen-comilla img{
       display: flex;
-      height: 80px;
-      width: 80px;
-     margin: 15px;
+      height: 70px;
+      width: 70px;
+      margin: 15px;
  }
  .comentario p{
      font-size: 20px;
@@ -319,15 +292,16 @@ main{
  }
  
 
- /* fin comentario, comienzo de seccion proyectos */
+/* fin de comentario */
+/* comienzo seccion proyectos */
 
  .seccion-proyectos{
      width: 85%;
-     height: 1300px;
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
+    
     
  }
 
@@ -335,10 +309,13 @@ main{
      display: flex;
      flex-direction: column;
      align-items: center;
-     text-align: center;    
+     text-align: center; 
+     padding-top: 20px;
+       
 }
 
 .proyectos-ilustracion{ 
+    
      display: flex;
      flex-wrap: wrap;
 }
@@ -399,37 +376,151 @@ main{
 }
 
 
-  /* fin demis proyectos, comienzo de formulario */
+  /* fin de mis proyectos */
+  /* comienzo de secccion formulario */
 
-  .seccion-formulario{
-       width: 100%;
-       height: 1000px;
+.seccion-formulario{
+       width: 100%; 
        display: flex;
        justify-content: center;
        align-items: center;
-       
+            
   }
-
 .formulario{
      width: 85%;
+     height: 1200px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.formulario-fondo{
      border-radius: 20px;
      border:1px solid darkgrey;
      background-color:white;
+     padding:15px;
      display: flex;
      align-items: center;
-     justify-content:space-between;
+    justify-content: space-between;
 
 }
 .contenedor-formulario{
      width: 50%; 
-     height: 600px;
+     height: 500px;
      margin: 10px;
-     padding: 20px;
      background-color: white;
      display: flex;
      flex-direction: column;
      
+}
+.contenedor-contactos{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-top: 25px;
+    
+}
+.lista-de-contacto{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    
      
+}
+.lista-de-contacto li{ 
+     width: 180px;
+     height: 30px;
+     display: flex;
+     align-items: center;
+     list-style:none;
+     
+     
+
+}
+.lista-de-contacto a{
+     display: flex;
+     align-items: center;
+     width: 180px;
+     height: 45px;
+     text-decoration: none;
+     color:black;
+     border-radius: 20px;
+     
+     
+
+     }
+.lista-de-contacto a:hover{
+          color:darkslateblue;
+     }
+
+.lista-de-contacto a:active{
+          box-shadow: rgba(245, 233, 233, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+          }
+.estilo-email{
+          display: flex;
+          align-items: center;
+          width: 260px;
+          height: 40px;
+          text-decoration: none;
+          color:black;
+          background-color: blueviolet;
+          border-radius: 20px;
+
+     }
+
+.fa.fa-twitter{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 40px;
+     height: 40px;
+     border-radius:50px;
+     margin: 10px;
+     
+     color:black;
+     font-size: 20px;
+     background-color:darkgrey;
+     
+   }
+
+
+.fa.fa-github{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 40px;
+     height: 40px;
+     border-radius:50px ;
+     background-color:darkgrey; 
+     font-size: 20px;
+     margin: 10px;
+}
+
+.fa.fa-linkedin-square{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 40px;
+     height: 40px;
+     border-radius:50px ;
+     font-size: 20px;
+     background-color:darkgrey;
+     margin: 10px;
+
+}
+
+.fas.fa-envelope-open{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 40px;
+     height: 40px;
+     border-radius:50px ;
+     font-size: 45px;
+     background-color:darkgrey;
+     margin: 10px;
+
 }
 
   .datos-personales-formulario{   
@@ -444,16 +535,17 @@ main{
      
 
 }
-label{display: flex;
+label{
+     display: flex;
      flex-direction: column;
-     margin: 8px;
+     margin: 4px;
      font-size: 18px;
 }
 input, textarea{
      margin: 8px;
      padding: 10px;
      font-size: 16px;
-     border-radius: 30px;
+     border-radius: 25px;
      background-color: #f6f7fb;
      border: 1px solid #f6f7fb;
      
@@ -527,8 +619,6 @@ footer{
      justify-content: center;
      height: 40px;
      border-radius:30px;
-    
-     
 
 }
 .link-footer-hola{
@@ -557,18 +647,66 @@ footer{
 
        }
 
+ /* proyecto resposive */
 
  @media (max-width:1100px){
-       h2{
-        font-size: 35px;
-        }
-  
-     }
-
+          .contenedor-navegacion{
+               display: none;
+          }
      
 
+ @media (max-width:1100px){
+          
+          .seccion-presentacion {
+               flex-direction: column;
+ }
+@media (max-width:1100px){
+          
+          .conocimientos-ilustracion {
+               flex-direction: column;
+          }
 
+}
 
+@media (max-width:1100px){
+     .formulario-fondo{
+          flex-direction: column;
+          
 
+      }  
 
+}
+@media (max-width:110px){
+     .contenedor-formulario{
+          width: 100%;
+
+     }
+}
+@media (max-width:1100px){
+     h2{
+          font-size: 35px;
+     }
+     
+@media (max-width:1100px){
+     .proyectos-ilustracion{
+          justify-content: center;
+
+     }
+}
+@media (max-width:1100px){
+     .contenedor-formulario{
+          width: 100%;
+
+     }
+}
+
+@media (max-width:1100px){
+     .navegacion-footer{
+          justify-content: center;
+
+     }
+     
+
+     }
+     /* fin de proyecto responsive */
 

@@ -11,13 +11,11 @@
     <link href="https://fonts.googleapis.com/css2? family = Roboto & display = swap" rel="hoja de estilo ">
     <link rel="shortcut icon" type="imagen/x-icon" href="img/favico.ico.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
 </head>
 
 
@@ -71,10 +69,14 @@
 
 
         <section id="CONOCIMIENTOS" class="seccion-conocimientos">
-   
+            
+            <br />
+            <br />
+            <br />
+           
 
             <div class="conocimientos-desarrollo">
-
+                
                 <h2>MIS CONOCIMIENTOS</h2>
                 <p class="desarrollo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque
                     molestias consequuntur vel ab
@@ -137,23 +139,29 @@
 
         <!--fin seccion conocimientos, comienzo de article-comentario-->
 
-        <article class="article-comentario">
+        <seccion class="seccion-comentario">
             <div class="comentario">
-                <img class="comentario-imagen-comilla" src="img/comilla.png" alt="comilla simple que cierra">
+                <div class="imagen-comilla">
+                    <img  src="img/comilla.png" alt="comilla simple que cierra">
+
+                </div>
+                
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quaerat aspernatur laboriosam
                     doloremque iste perspiciatis veniam culpa beatae magni quo natus nostrum, laudantium exercitationem
                     sit minima aut totam praesentium aliquam.</p>
                 <h3>SOMEONE</h3>
             </div>
 
-        </article>
+        </seccion>
         <!--fin article-comentario, comienzo de seccion-proyectos-->
 
         
 
         <seccion id="PROYECTOS" class="seccion-proyectos">
-           
-
+            <br />
+            <br />
+         
+     
             <div class="proyectos-desarrollo">
                 <h2>MIS PROYECTOS</h2>
                 <p class="desarrollo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis
@@ -167,7 +175,7 @@
                 <div class="ilustracion-cajas">
                     <a href="#" target="_blank">
                         <div class="contenedor-imagen">
-                            <img class="imagen-proyectos" src="img/porfoli-img.png" alt="ilustracion de mi portafolio">
+                            <img class="imagen-proyectos" src="img/captura.png" alt="ilustracion de mi portafolio">
                         </div>
                         <p><strong>PORTAFOLIO</strong></p>
                     </a>
@@ -237,72 +245,78 @@
 
 
         <section id="CONTACTO" class="seccion-formulario">
-          
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <seccion class="formulario">
+                <seccion class="formulario-fondo">
+            
 
-            <seccion class="formulario">
-
-
-                <div class="contenedor-formulario">
-                    <h2> Contactame</h2>
-                    <p class="desarrollo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis
-                        voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae quam hic quo, qui cumque nam
-                        voluptates, ipsam, tempora eaque numquam eligendi.</p>
-                    <div>
-                        <ul class="lista-de-contacto">
-                            <li>
-
-
-                            </li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-
+                    <div class="contenedor-formulario">
+                        <h2> Contactame</h2>
+                        <p class="desarrollo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis
+                            voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae quam hic quo, qui cumque nam
+                            voluptates, ipsam, tempora eaque numquam eligendi.</p>
+                        <div class="contenedor-contactos">
+                            <ul class="lista-de-contacto">
+                                <li> <a href="#"><i class="fa fa-twitter"></i> @sofibernabei</a> </li>    
+                                <li> <a href="#"><i class="fa fa-github"></i> Sofia Bernabei</a></li>
+                                <li> <a href="#"><i class="fa fa-linkedin-square"></i>  Sofia Bernabei</a></li>
+                                
+                            </ul>
+    
+                        </div>
                     </div>
-                </div>
+    
+                    <div class="contenedor-formulario">
+                        <h2>Escribime</h2>
+                        <form>
+                            <div class="datos-personales-formulario">
+    
+                                <label> Nombre:
+                                    <input type="text" name="Nombre" placeholder="p. ej.:Sofia" size="15" />
+                                </label>
+                                <label>Apellido:
+                                    <input type="text" name="Apellido" placeholder="p. ej.:Bernabei" size="15" />
+                                </label>
+    
+                            </div>
+    
+                            <div class="email-mensaje-formulario">
+                                <label class="email-mensaje"> Email:
+                                    <input type="email" name="email" placeholder="p. ej.:sofiabernabeicejas@gmail.com"
+                                        size="10" />
+    
+                                </label>
+    
+                                <label class="email-mensaje"> Mensaje:
+                                    <textarea name="mensaje" cols="45" rows="4"
+                                        placeholder="Escriba un mensaje aquí"></textarea>
+                                </label>
+    
+                            </div>
+                            <div class="formulario-boton">
+                                <button class="boton-enviar" >ENVIAR</button>
+    
+                            </div>
+    
+    
+    
+                        </form>
+    
+    
+                    </div>
+                   
+                    <!--LOS DIV VAN POR AFUERA O POR ADENTRO DELFORN???-->
+    
+                </seccion>
 
-                <div class="contenedor-formulario">
-                    <h2>Escribime</h2>
-                    <form>
-                        <div class="datos-personales-formulario">
+               </seccion>
+                
 
-                            <label> Nombre:
-                                <input type="text" name="Nombre" placeholder="p. ej.:Sofia" size="20" />
-                            </label>
-                            <label>Apellido:
-                                <input type="text" name="Apellido" placeholder="p. ej.:Bernabei" size="20" />
-                            </label>
-
-                        </div>
-
-                        <div class="email-mensaje-formulario">
-                            <label class="email-mensaje"> Email:
-                                <input type="email" name="email" placeholder="p. ej.:sofiabernabeicejas@gmail.com"
-                                    size="15" />
-
-                            </label>
-
-                            <label class="email-mensaje"> Mensaje:
-                                <textarea name="mensaje" cols="45" rows="4"
-                                    placeholder="Escriba un mensaje aquí"></textarea>
-                            </label>
-
-                        </div>
-                        <div class="formulario-boton">
-                            <button class="boton-enviar" >ENVIAR</button>
-
-                        </div>
-
-
-
-                    </form>
-
-
-                </div>
-               
-                <!--LOS DIV VAN POR AFUERA O POR ADENTRO DELFORN???-->
-
-            </seccion>
+  
+           
 
         </section>
 
