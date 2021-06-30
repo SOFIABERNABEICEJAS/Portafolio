@@ -6,8 +6,7 @@ body{
 }
 h2{
  font-size: 45px;
-
-     }   
+}   
 .contenedor-navegacion{
      display: flex;
      justify-content:center;
@@ -16,9 +15,8 @@ h2{
      height: 80px;
      width: 100%;
      background-color:rgb(173, 173, 173);
-     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-     
-       
+     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      
 }
 
 .barra-de-navegacion{
@@ -295,6 +293,7 @@ main{
  
 
 /* fin de comentario */
+
 /* comienzo seccion proyectos */
 
  .seccion-proyectos{
@@ -302,9 +301,7 @@ main{
      display: flex;
      flex-direction: column;
      align-items: center;
-     justify-content: center;
-    
-    
+     justify-content: center; 
  }
 
  .proyectos-desarrollo{
@@ -332,7 +329,7 @@ main{
      border-radius: 8px;
      border:1px solid darkgrey;
      box-sizing: border-box;
-     background-color:rgb(252, 245, 236);
+     background-color:white;
      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
      
   }
@@ -362,10 +359,11 @@ main{
 }
 .ilustracion-cajas:active{
      border:2px solid  darkslateblue;
-     background-color:white;
-       
+    
 }
-
+.ilustracion-cajas a:active{
+     color:darkslateblue
+}
 
 .contenedor-imagen img{
     width: 220px;
@@ -379,13 +377,14 @@ main{
 
 
   /* fin de mis proyectos */
+
   /* comienzo de secccion formulario */
 
 .seccion-formulario{
-       width: 100%; 
-       display: flex;
-       justify-content: center;
-       align-items: center;
+     width: 100%; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
             
   }
 .formulario{
@@ -403,7 +402,7 @@ main{
      padding:15px;
      display: flex;
      align-items: center;
-    justify-content: space-between;
+     justify-content: space-between;
 
 }
 .contenedor-formulario{
@@ -447,29 +446,27 @@ main{
      text-decoration: none;
      color:black;
      border-radius: 20px;
-     
-     
+ }
 
-     }
 .lista-de-contacto a:hover{
-          color:darkslateblue;
-     }
+     color:darkslateblue;
+}
 
 .lista-de-contacto a:active{
-          box-shadow: rgba(245, 233, 233, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+     box-shadow: rgba(245, 233, 233, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 
-          }
+}
 .estilo-email{
-          display: flex;
-          align-items: center;
-          width: 260px;
-          height: 40px;
-          text-decoration: none;
-          color:black;
-          background-color: blueviolet;
-          border-radius: 20px;
+     display: flex;
+     align-items: center;
+     width: 260px;
+     height: 40px;
+     text-decoration: none;
+     color:black;
+     background-color: blueviolet;
+     border-radius: 20px;
 
-     }
+}
 
 .fa.fa-twitter, .fa.fa-github, .fa.fa-linkedin-square{
      display: flex;
@@ -482,29 +479,24 @@ main{
      font-size: 20px;
      background-color:darkgrey;
      
-   }
-
-
-
+}
 
   .datos-personales-formulario{   
-       display: flex;
-  }
- 
-
-.email-mensaje-formulario{
-     
      display: flex;
-     flex-direction: column;
-     
-
 }
+ 
+.email-mensaje-formulario{   
+     display: flex;
+     flex-direction: column; 
+}
+
 label{
      display: flex;
      flex-direction: column;
      margin: 4px;
      font-size: 18px;
 }
+
 input, textarea{
      margin: 8px;
      padding: 10px;
@@ -514,6 +506,7 @@ input, textarea{
      border: 1px solid #f6f7fb;
      
 }
+
 .email-mensaje{
      display: flex;
      flex-direction: column;
@@ -552,23 +545,17 @@ input, textarea{
 
 footer{
      height: 300px;
-      display: flex;
-      flex-direction: column;
+     display: flex;
+     flex-direction: column;
      align-items: center;
      justify-content: center;
      background-color:rgb(173, 173, 173);
-}
-.barra-de-navegacion-footer{
-     width: 85%; 
-     height: 260px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     
+     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 
 }
+
 .navegacion-footer{
-     width: 600px;
+     width: 3px;
      display: flex;
      justify-content: space-around;
      list-style:none;
@@ -585,7 +572,7 @@ footer{
 
 }
 .link-footer-hola{
-  width: 80px;
+    width: 80px;
 
   }
 .link-footer-conocimiento{
@@ -597,16 +584,16 @@ footer{
 
 }
 .link-footer-contacto{
-  width:140px;
+     width:140px;
 
   }
   .navegacion-footer a:active{
      box-shadow: rgba(245, 233, 233, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-     
 
   }
+
   .navegacion-footer a:hover{
-       color:darkslateblue; }
+      color:darkslateblue; }
 
 
 .redes-sociales{
@@ -618,7 +605,7 @@ footer{
 
 .contenedor-redes-sociales{
      width: 350px;
-     display: flex;
+    display: flex;
     justify-content:center;
     align-items: center;
 
@@ -630,7 +617,7 @@ footer{
      justify-content: center;
      
 }
-.contenedor-redes-sociales li a{
+.contenedor-redes-sociales a{
      text-decoration: none;
      display: flex;
     
@@ -646,16 +633,11 @@ footer{
 }
 
 
-
-
-
-
-
-
  /* proyecto resposive */
 
+
  @media (max-width:1100px){
-          .contenedor-navegacion{
+     .contenedor-navegacion{
                display: none;}
           
 
@@ -664,7 +646,7 @@ footer{
 
  @media (max-width:1100px){
           
-          .seccion-presentacion, .conocimientos-ilustracion, .formulario-fondo, .conocimientos-ilustracion, .proyectos-ilustracion, .navegacion-footer {
+      .seccion-presentacion, .conocimientos-ilustracion, .formulario-fondo, .conocimientos-ilustracion, .proyectos-ilustracion, .navegacion-footer {
                flex-direction: column;}
 
 
@@ -674,7 +656,6 @@ footer{
 @media (max-width:110px){
      .contenedor-formulario{
           width: 100%;
-
      }
 }
 @media (max-width:1100px){
@@ -691,5 +672,5 @@ footer{
 }
 
 
-     /* fin de proyecto responsive */
+ /* fin de proyecto responsive */
 
