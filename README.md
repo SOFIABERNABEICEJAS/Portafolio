@@ -1,10 +1,10 @@
 #  MI PORTAFOLIO
 
-Este es mi portafolio personal, es el primer trabajo realizado como estudiante  desarrolladora frontend en ADA, utilizando las tecnologias aprendidas:
+Este es mi portafolio personal, es el primer trabajo realizado como estudiante  desarrolladora frontend en ADA utilizando las tecnologias aprendidas:
 
--HTML
--CSS
--Maquetado con Flexbox
+- HTML
+- CSS
+- Maquetado con Flexbox
 
 Además, este trabajo es responsive. 
 
