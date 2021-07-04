@@ -206,7 +206,6 @@ main{
 .conocimientos-ilustracion{
      display: flex;
      justify-content: center;
-     
     
 }
 .ilustracion-mis-conocimientos{
@@ -252,8 +251,8 @@ main{
 
 
 
- /* fin seccion conocimiento
-  comienzo seccion-comentario */
+ /* fin seccion conocimiento */
+  /* comienzo seccion comentario */
 
 
  .seccion-comentario{
@@ -648,8 +647,6 @@ footer{
           
       .seccion-presentacion, .conocimientos-ilustracion, .formulario-fondo, .conocimientos-ilustracion, .proyectos-ilustracion, .navegacion-footer {
                flex-direction: column;}
-
-
 }
 
 
