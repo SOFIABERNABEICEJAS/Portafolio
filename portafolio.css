@@ -1,7 +1,9 @@
 
 body{ 
+     /* evitamos la unidad de medida cuando es 0. O sea: margin: 0; */
      margin: 0%;
      font-family: 'Roboto', sans-serif;
+     /* innecesario, es el color por defecto */
      background-color:white;      
 }
 h2{
@@ -89,7 +91,7 @@ h2{
 /* fin barra de navegacion */
 /* comienzo seccion presentacion */
 
-
+/* ojo con la mayuscula!! este estilo no se esta aplicando... lo que te prueba que no es necesario */
 Header{
      width: 100%;
      height: 700px;
@@ -100,6 +102,9 @@ Header{
     
 }
 .seccion-presentacion{
+     /* no le des height a las secciones. si agregaras mas texto, la rebalsaria. 
+     el height es para elementos pequeños. en los contenedores, debe estar dado por su 
+     contenido, margin y padding */
      height: 700px;
      width: 85%;
      display: flex;
@@ -169,6 +174,7 @@ Header{
      
 }
 .imagen-presentacion img{
+     /* innecesario darle flex a la imagen! flex es para elementos que tienen descendencia! */
      display: flex;
      align-items: center;
      justify-content: center;
@@ -256,6 +262,7 @@ main{
 
 
  .seccion-comentario{
+      /* innecesario width 100%, es el estilo por defecto de los divs */
      width: 100%;
      height: 400px;
      background-color:rgb(173, 173, 173);
@@ -266,6 +273,8 @@ main{
 
  .comentario{
      width: 70%;
+     /* si no arreglas este width en responsive, va a rebalsar en todos los celulares 
+     con pantallas menores a 340px */
      height: 300px;
      margin: 20px;
      background-color:rgb(173, 173, 173);
@@ -388,7 +397,9 @@ main{
   }
 .formulario{
      width: 85%;
+     /* esta altura es innecesaria. el height debe estar dado por los descendientes, no forzado */
      height: 1200px;
+     /* esto rompe tu responsive. este elemento no necesita flex, tiene un solo hijo! */
      display: flex;
     align-items: center;
     justify-content: center;
