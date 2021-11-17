@@ -14,8 +14,6 @@ h2 {
 	height: 80px;
 	width: 100%;
 	background-color: rgb(173, 173, 173);
-	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-		rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .barra-de-navegacion {
@@ -348,10 +346,10 @@ main {
 }
 .formulario {
 	width: 85%;
-	height: 1200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 60px;
 }
 .formulario-fondo {
 	border-radius: 20px;
