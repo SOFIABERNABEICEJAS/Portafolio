@@ -8,6 +8,6 @@ Este es mi portafolio personal, es el primer trabajo realizado como estudiante d
 
 Además, este trabajo es responsive.
 
-[Link al proyecto](https://sofiabernabeicejas.github.io/Portfolio/)
+[Link al proyecto](https://main--rick-and-morty-react-sass.netlify.app/)
 
 Para mi es un gran desafio porque nunca había experimentado el mundo de la programación.
