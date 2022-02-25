@@ -5,9 +5,8 @@ Este es mi portafolio personal, es el primer trabajo realizado como estudiante d
 - HTML
 - CSS
 - Maquetado con Flexbox
-
-Además, este trabajo es responsive.
+- Responsive
 
 [Link al proyecto](https://sofiabernabeicejas.github.io/Portfolio/)
 
-Para mi es un gran desafio porque nunca había experimentado el mundo de la programación.
+Muchisimo por aprender y mejorar.
