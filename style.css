@@ -166,38 +166,31 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: rgb(252, 245, 236);
+	background-color: rgb(252, 249, 245);
 }
 
-.conocimientos-desarrollo {
+.seccion-general {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.titulo-general {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	height: 300px;
 }
 
-.desarrollo {
+.contenedor-general {
 	display: flex;
-	width: 350px;
-	height: 90px;
-	margin: 0%;
-}
-.conocimientos-ilustracion {
-	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-}
-.ilustracion-mis-conocimientos {
-	width: 250px;
-	height: 550px;
-	margin: 12px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+	width: 80%;
 }
 
-.ilustracion-mis-conocimientos-cajas {
+.conocimientos-ilustracion-cajas {
 	width: 250px;
 	height: 230px;
 	border-radius: 8px;
@@ -209,8 +202,9 @@ main {
 	justify-content: center;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	box-sizing: border-box;
+	margin: 10px;
 }
-.ilustracion-mis-conocimientos-cajas:hover {
+.conocimientos-ilustracion-cajas:hover {
 	border: 1.5px solid darkslateblue;
 	color: darkslateblue;
 }
@@ -221,7 +215,7 @@ main {
 	height: 80px;
 }
 .ilustracion-cajas-mis-conocimientos p {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 /* fin seccion conocimiento */
@@ -238,7 +232,6 @@ main {
 
 .comentario {
 	width: 70%;
-	height: 300px;
 	margin: 20px;
 	background-color: rgb(173, 173, 173);
 	display: flex;
@@ -249,14 +242,11 @@ main {
 }
 .imagen-comilla img {
 	display: flex;
-	height: 70px;
-	width: 70px;
-	margin: 15px;
+	height: 55px;
+	width: 55px;
+	margin: 10px;
 }
 .comentario p {
-	font-size: 20px;
-}
-.comentario h3 {
 	font-size: 25px;
 }
 
@@ -264,35 +254,14 @@ main {
 
 /* comienzo seccion proyectos */
 
-.seccion-proyectos {
-	width: 85%;
+.proyectos-cajas {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	justify-content: center;
-}
-
-.proyectos-desarrollo {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	padding-top: 50px;
-}
-
-.proyectos-ilustracion {
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-}
-
-.ilustracion-cajas {
-	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	width: 300px;
-	height: 280px;
+	height: 260px;
 	margin: 8px;
+
 	border-radius: 8px;
 	border: 1px solid darkgrey;
 	box-sizing: border-box;
@@ -300,13 +269,7 @@ main {
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.ilustracion-cajas {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.ilustracion-cajas a {
+.proyectos-cajas a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -315,20 +278,21 @@ main {
 	font-size: 16px;
 	color: black;
 }
-.ilustracion-cajas:hover {
+.proyectos-cajas:hover {
 	border: 0.5px solid darkslateblue;
 	box-shadow: rgb(175, 169, 211) 0px 7px 29px 0px;
 }
-.ilustracion-cajas:active {
+.proyectos-cajas:active {
 	border: 2px solid darkslateblue;
 }
-.ilustracion-cajas a:active {
+.proyectos-cajas a:active {
 	color: darkslateblue;
 }
 
 .contenedor-imagen img {
-	width: 220px;
-	height: 200px;
+	width: 200px;
+	height: 160px;
+	margin-top: 8px;
 }
 .imagen-proyectos {
 	display: flex;
