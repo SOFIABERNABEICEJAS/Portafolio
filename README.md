@@ -1,13 +1,24 @@
-# MI PORTAFOLIO 😀
+![porfolio](https://sofiabernabeicejas.github.io/Portfolio/img/porfolio.png)
 
-Este es mi portafolio personal, es el primer trabajo realizado como estudiante desarrolladora frontend en ADA utilizando las tecnologias aprendidas:
+---
+
+## Mi porfolio 💫
+
+---
 
 - HTML
 - CSS
 - Maquetado con Flexbox
 - Responsive
+- Adjunte trabajos realizados en el curso.
 
-[Link al proyecto](https://sofiabernabeicejas.github.io/Portfolio/)
+---
+
+```
+
+
+```
+
+Link al proyecto [PORFOLIO](https://sofiabernabeicejas.github.io/Portfolio/) ✔
 
 Muchisimo por aprender y mejorar.
-![porfolio](https://sofiabernabeicejas.github.io/Portfolio/img/porfolio.png)
