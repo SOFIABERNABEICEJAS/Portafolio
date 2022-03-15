@@ -10,3 +10,4 @@ Este es mi portafolio personal, es el primer trabajo realizado como estudiante d
 [Link al proyecto](https://sofiabernabeicejas.github.io/Portfolio/)
 
 Muchisimo por aprender y mejorar.
+![porfolio](https://sofiabernabeicejas.github.io/Portfolio/img/porfolio.png)
