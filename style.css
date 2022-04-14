@@ -1,5 +1,6 @@
 body {
 	margin: 0%;
+	padding: 0%;
 	background-color: white;
 	font-family: "Merriweather Sans", sans-serif;
 }
@@ -102,7 +103,6 @@ Header {
 	flex-direction: column;
 	justify-content: center;
 	width: 50%;
-	height: 600px;
 }
 .contenedor-presentacion-desarrollo p {
 	font-size: 30px;
@@ -223,7 +223,6 @@ main {
 
 .seccion-comentario {
 	width: 100%;
-	height: 400px;
 	background-color: rgb(173, 173, 173);
 	display: flex;
 	justify-content: center;
@@ -242,7 +241,6 @@ main {
 }
 .imagen-comilla img {
 	display: flex;
-	height: 55px;
 	width: 55px;
 	margin: 10px;
 }
@@ -308,56 +306,46 @@ main {
 	justify-content: center;
 	align-items: center;
 }
-.formulario {
-	width: 85%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 60px;
-}
+
 .formulario-fondo {
+	margin-top: 60px;
+	margin-bottom: 60px;
 	border-radius: 20px;
 	border: 1px solid darkgrey;
 	background-color: white;
 	padding: 15px;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 }
 .contenedor-formulario {
-	width: 50%;
-	height: 500px;
+	padding: 10px;
 	margin: 10px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
-.contenedor-contactos {
-	width: 200px;
-	height: 200px;
-	display: flex;
-	margin-top: 25px;
-}
+
 .lista-de-contacto {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	padding: 0%;
 }
 .lista-de-contacto li {
+	padding: 0%;
 	width: 180px;
 	height: 30px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	list-style: none;
+	margin-top: 30px;
+	padding-bottom: 30px;
 }
 .lista-de-contacto a {
 	display: flex;
 	align-items: center;
-	width: 180px;
-	height: 45px;
 	text-decoration: none;
 	color: black;
-	border-radius: 20px;
+	font-size: large;
 }
 
 .lista-de-contacto a:hover {
@@ -369,6 +357,7 @@ main {
 		rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
 		rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
+
 .estilo-email {
 	display: flex;
 	align-items: center;
@@ -394,11 +383,19 @@ main {
 	background-color: darkgrey;
 }
 
-.datos-personales-formulario {
+form {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.datos-personales-formulario {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
 .email-mensaje-formulario {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -406,7 +403,9 @@ main {
 label {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 	margin: 4px;
+	padding: 4px;
 	font-size: 18px;
 }
 
@@ -420,13 +419,6 @@ textarea {
 	border: 1px solid #f6f7fb;
 }
 
-.email-mensaje {
-	display: flex;
-	flex-direction: column;
-}
-.formulario-boton {
-	display: flex;
-}
 .boton-enviar {
 	display: flex;
 	align-items: center;
@@ -466,11 +458,12 @@ footer {
 }
 
 .navegacion-footer {
-	width: 3px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	list-style: none;
+	padding: 0%;
 }
+
 .navegacion-footer a {
 	color: black;
 	text-decoration: none;
@@ -507,6 +500,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0%;
 }
 
 .contenedor-redes-sociales {
@@ -551,23 +545,43 @@ footer {
 	.navegacion-footer {
 		flex-direction: column;
 	}
-}
-
-@media (max-width: 110px) {
-	.contenedor-formulario {
-		width: 100%;
-	}
-}
-@media (max-width: 1100px) {
 	h2 {
 		font-size: 35px;
 	}
-}
-@media (max-width: 1100px) {
 	.conocimientos-ilustracion,
 	.navegacion-footer {
 		align-items: center;
 	}
 }
 
+@media (max-width: 600px) {
+	.formulario-fondo {
+		padding: 10px;
+		width: 280px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.contenedor-formulario {
+		width: 280px;
+		margin: 0px;
+		padding: 5px;
+	}
+	.contenedor-contactos {
+	}
+	.datos-personales-formulario {
+		flex-direction: column;
+	}
+	.formulario-boton {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	form {
+		width: 300px;
+	}
+	label {
+		width: 90%;
+	}
+}
 /* fin de proyecto responsive */
